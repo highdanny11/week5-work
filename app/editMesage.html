@@ -1,0 +1,126 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="dashboard-container">
+  <div class="dashboard-bar d-flex justify-content-between align-items-center">
+    <div class="dashboard-title d-flex align-items-center">
+      <h2 class="mb-0 me-5">Assignment</h2>
+      <p class="d-flex align-items-center mb-0">All Courses<a href="#" class="ms-2 fs-4 a-icon"><i
+            class="fas fa-angle-down"></i></a></p>
+    </div>
+    <ul class="dashboard-icons d-flex align-items-center mb-0">
+      <li class="d-flex align-items-center"><a href="#" class="material-icons fs-4 a-icon">
+          search
+        </a></li>
+      <li class="d-flex align-items-center ms-4"><a href="#" class="material-icons fs-4 a-icon">
+          notifications_active
+        </a></li>
+    </ul>
+  </div>
+  <div class="dashboard-main">
+    <div class="d-flex align-items-conter justify-content-between mb-6">
+      <p class="d-flex align-items-center mb-0 fw-bold">All(4)<a href="#" class="ms-2 fs-4 a-icon"><i
+            class="fas fa-angle-down"></i></a></p>
+      <p class="text-secondary">2 comments</p>
+    </div>
+    <div class="d-flex">
+      <div class="list-group assignment-list">
+        <button type="button" class="list-group-item list-group-item-action assignment-item">
+          <div class="d-flex align-items-center justify-content-between assignment-item-sort">
+            <p>Chapter Assignment 2</p>
+            <p>4 hrs ago</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-between assignment-item-title">
+            <h3>Please check this file…</h3>
+            <p>Emily Wang</p>
+          </div>
+        </button>
+        <button type="button" class="list-group-item list-group-item-action assignment-item">
+          <div class="d-flex align-items-center justify-content-between assignment-item-sort">
+            <p>Chapter Assignment 1</p>
+            <p>12 hrs ago</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-between assignment-item-title">
+            <h3>My Homework</h3>
+            <p>David Xu</p>
+          </div>
+        </button>
+        <button type="button" class="list-group-item list-group-item-action assignment-item">
+          <div class="d-flex align-items-center justify-content-between assignment-item-sort">
+            <p>Final Assignment</p>
+            <p>18 hrs ago</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-between assignment-item-title">
+            <h3>Have a problem with this…</h3>
+            <p>Tony Wei</p>
+          </div>
+        </button>
+        <button type="button" class="list-group-item list-group-item-action assignment-item">
+          <div class="d-flex align-items-center justify-content-between assignment-item-sort">
+            <p>Final Assignment</p>
+            <p>19 hrs ago</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-between assignment-item-title">
+            <h3>Did I do it right?</h3>
+            <p>Christina Lin</p>
+          </div>
+        </button>
+      </div>
+      <ul class="list-group ms-3 assignment-item-detail">
+        <li class="list-group-item bg-light py-12">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="assignment-item-title ">
+              <h3><span>Chapter Assignment 2 / HTML&CSS</span><br>Please check this file for me, thanks!</h3>
+            </div>
+            <a href="#" class="material-icons-outlined a-icon fs-4">
+              more_vert
+            </a>
+          </div>
+        </li>
+        <li class="list-group-item assignment-item-artical py-3">
+          <div class="person mb-3">
+            <img class="person-img rounded-circle me-2"
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emilywang.jpeg"></img>
+            <div class="d-flex flex-column">
+              <p class="person-title mb-1">Emily Wang</p>
+              <p class="person-date">10:38 AM (4 hours ago)</p>
+            </div>
+          </div>
+          <div class="person-artical ms-5 me-3 mb-2 pb-3 border-bottom">
+            <p class="person-mesage mb-3">
+              Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following
+              code the height of the <a class="bg-light text-success" href="#">div</a> is bigger than the height of the
+              <a class="bg-light text-success" href="#">img</a> ? There is a gap below the image, but it
+              doesn’t seems to be a padding/margin. What is the gap or extra space below image?
+            </p>
+            <button class="btn btn-light d-flex border fw-bold"><span class="material-icons">
+                attach_file
+              </span>HW-2-David.zip</button>
+          </div>
+        </li>
+        <li class="list-group-item bg-light px-4 py-3">
+          <ul class="d-flex align-items-center ps-0">
+            <li class="fw-bold d-flex">Body Text<a href="#" class="ms-2 fs-4 a-icon"><i class="fas fa-angle-down"></i></a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">format_bold</a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">format_italic</a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">format_list_bulleted</a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">format_list_numbered</a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">image</a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">attachment</a></li>
+            <li><a href="#" class="material-icons fs-4 a-icon ms-4">code</a></li>
+          </ul>
+        </li>
+        <li class="list-group-item d-flex flex-column justify-content-between w-100 px-4 py-3 edit-mesage">
+          <p class="text-placehold">Reply an answer…</p>
+          <div class="text-end">
+            <div class="btn btn-outline-success rounded py-2 px-32 fw-bold">Cancel</div>
+            <div class="btn btn-success rounded py-2 px-32 fw-bold">Reply</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

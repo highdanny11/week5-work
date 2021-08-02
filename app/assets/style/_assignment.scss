@@ -1,0 +1,33 @@
+.assignment{
+  &-list {
+    width: 320px;
+  }
+}
+.assignment-item {
+  padding: 12px;
+  &-detail {
+    width: 584px;
+  }
+  &-sort {
+    font-size: 12px;
+    line-height: 24px;
+    color: #212529;
+  }
+  &-title {
+    & h3 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      margin-bottom: 0;
+      & span {
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+    & p {
+      color: #6c757d;
+      font-size: 12px;
+      line-height: 24px;
+    }
+  }
+}
