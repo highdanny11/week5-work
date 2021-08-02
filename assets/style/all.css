@@ -1,0 +1,175 @@
+p {
+  margin-bottom: 0; }
+
+body {
+  font-family: 'Lato','Roboto Mono',sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #212529;
+  display: block; }
+
+p > a {
+  display: inline; }
+
+td > a {
+  display: inline; }
+
+ul {
+  list-style-type: none; }
+
+main {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.logo {
+  padding: 32px; }
+  .logo a {
+    width: 151px;
+    height: 40px;
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg); }
+
+.text-indent {
+  text-indent: 16px; }
+
+.a-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px; }
+  .a-icon:hover {
+    color: #198754; }
+
+.table-icon:hover, .model-icon:hover {
+  color: #198754; }
+
+.text-placehold {
+  color: #CED4DA; }
+
+.page-link {
+  color: #198754; }
+  .page-link:hover {
+    background-color: #198754;
+    color: #fff; }
+  .page-link:active {
+    background-color: #198754;
+    color: #fff; }
+  .page-link:focus {
+    background-color: #198754;
+    color: #fff; }
+
+.fs-12 {
+  font-size: 12px; }
+
+.fs-20 {
+  font-size: 20px; }
+
+.lh-33 {
+  line-height: 33px; }
+
+.p-32 {
+  padding: 32px; }
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px; }
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
+.mb-6 {
+  margin-bottom: 6px; }
+
+.mb-18 {
+  margin-bottom: 18px; }
+
+.me-23 {
+  margin-right: 23px; }
+
+.ms-7 {
+  margin-left: 7px; }
+
+.sidebars {
+  width: 296px; }
+  .sidebars-wrap {
+    height: calc(100vh - 104px); }
+  .sidebars-list {
+    padding-left: 0px; }
+    .sidebars-list li {
+      margin-bottom: 18px;
+      font-weight: bold;
+      padding: 4px 32px; }
+      .sidebars-list li:hover {
+        padding-left: 28px;
+        border-left: 4px solid #198754; }
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .person-title {
+    font-weight: bold;
+    color: #212529; }
+  .person-gmail {
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 24px; }
+    .person-gmail:hover {
+      color: #198754; }
+  .person-img {
+    width: 40px;
+    height: 40px; }
+  .person-date {
+    color: #6c757d;
+    font-size: 12px;
+    line-height: 24px; }
+  .person-mesage {
+    font-size: 14px;
+    line-height: 21px; }
+
+.dashboard-container {
+  width: 984px;
+  padding: 32px; }
+
+.dashboard-bar {
+  margin-bottom: 32px; }
+
+.edit-mesage {
+  height: 263px; }
+
+.assignment-list {
+  width: 320px; }
+
+.assignment-item {
+  padding: 12px; }
+  .assignment-item-detail {
+    width: 584px; }
+  .assignment-item-sort {
+    font-size: 12px;
+    line-height: 24px;
+    color: #212529; }
+  .assignment-item-title h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 0; }
+    .assignment-item-title h3 span {
+      font-size: 12px;
+      line-height: 24px; }
+  .assignment-item-title p {
+    color: #6c757d;
+    font-size: 12px;
+    line-height: 24px; }
+
+/*# sourceMappingURL=all.css.map */
